@@ -750,7 +750,7 @@ TESTIMONIALS ↓
 .testimonial {
     margin-top:40px;
 }
-.testimonial__ratings {
+.testimonial__ratings i {
     color:#f6ad55;
     margin-right:2px;
     margin-top:4px;
@@ -842,8 +842,84 @@ START / CALL TO ACTION ↓
     position: relative;
     overflow: hidden;
 }
-
-
+.start__blob--1 {
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    height:20rem;
+    width:20rem;
+    transform:translate(-5rem, 8rem);
+    color:#5011cc;
+    opacity:0.5;
+    
+}
+.start__blob--2 {
+    position:absolute;
+    top:0px;
+    right:0px;
+    height:20rem;
+    width:20rem;
+    transform:translate(5rem, -16rem);
+    color:#5011cc;
+    opacity:0.5;
+}
+.start__container {
+    width:100%;
+    background-color:rgb(100 21 255);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding:96px 0;
+    border-radius:8px;
+}
+.start__row {
+    width:100%;
+    max-width:1024px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 auto;
+    padding:0 32px;
+}
+.start__title {
+    color:rgb(247 250 252);
+    font-size:30px;
+    font-weight:700;
+    line-height:1.5;
+    z-index:2;
+}
+.start__buttons {
+    display:flex;
+    justify-content:flex-end;
+}
+.start__button {
+    font-weight:700;
+    font-size:16px;
+    color:rgb(247 250 252);
+    line-height:1.5;
+    z-index:2;
+    padding:20px 40px;
+    border-radius:500px;
+    margin:1px;
+}
+.start__button:nth-child(1){
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    margin-right:32px;
+    background:rgb(245 101 101);
+    transition:300ms;
+}
+.start__button:nth-child(2) {
+    border: 1px solid rgb(160 174 192);
+    border-image:initial;
+    transition:300ms;
+}
+.start__button:nth-child(2):hover {
+    background-color: rgb(247 250 252);
+    color:rgb(100 21 255);
+}
+.start__button:nth-child(1):hover {
+    background-color: rgb(186, 38, 38);
+}
 /* 
 
 FOOTER ↓
