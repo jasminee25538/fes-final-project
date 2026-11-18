@@ -1058,6 +1058,15 @@ MOBILE RESPONSIVENESS ↓
         justify-content: flex-end;
         display: flex;
     }
+    .header__description--para {
+        font-size: 16px;
+    }
+    .header__customers {
+        padding-right: 64px;
+    }
+    .header__img {
+        max-width: 512px;
+    }
 }
 
 
@@ -1081,12 +1090,60 @@ MOBILE RESPONSIVENESS ↓
         margin: 0 auto;
         max-width:512px;
     }
+    .header__customer--title, .header__img--wrapper {
+        margin-top:48px;
+    }
+    .header__customers {
+        padding-right: 0;
+    }
+    .header__desscription--para {
+        margin: 20px 0;
+    }
+    .nav__links {
+        display: none;
+    }
+    #features .section__title, #pricing .section__title {
+        font-size:48px;
+    }
+    .section__title {
+        font-size:36px;
+    }
+    .section__para {
+        font-size: 16px;
+    }
+    .features {
+        max-width: 768px;
+    }
+    .feature {
+        width:calc(50%);
+    }
+    .feature__row {
+        padding: 32px 8px;
+        margin:0 16px;
+    }
+    .feature__title {
+        line-height:1;
+    }
+    .feature__para {
+        max-width:none;
+    }
+    
     footer {
         padding: 80px 32px;
     }
 }
 
 @media(max-width: 768px) {
+    .section__para {
+        font-size: 16px;
+    }
+    .features {
+        justify-content: center;
+    }
+    .feature {
+        width:auto;
+        max-width:384px;
+    }
     #quality .row,
     #values .row {
         flex-direction: column-reverse;
@@ -1105,6 +1162,21 @@ MOBILE RESPONSIVENESS ↓
     .container {
         padding: 80px 0;
     }
+    .header__email {
+        flex-direction:column;
+        height:auto;
+    }
+    .header__email--btn {
+        width:100%;
+        padding:16px 0;
+        margin:16px 0;
+        margin-bottom:0;
+        line-height:1.5;
+    }
+    .header_-customers--title {
+        font-size: 14px;
+        letter-spacing: 0.05em;
+    }
     .nav__logo {
         margin: 8px 0;
         padding-bottom: 4px;
@@ -1112,4 +1184,32 @@ MOBILE RESPONSIVENESS ↓
     main {
         margin-bottom: 80px;
     }
+    #features, .section__title, #pricing .section__title {
+        font-size:36px;
+    }
+    .section__title {
+        font-size:30px;
+        line-height: 1.25;
+    }
+    .feature__row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .feature__text {
+        margin-left: 0;
+        margin-top: 16px;
+    }
+    .feature__title {
+        letter-spacing: 0.025em;
+        line-height: 1;
+    }
+    .feature__para {
+        margin-top: 4px;
+        line-height: 2;
+      
+    }
+
+
+
 }
